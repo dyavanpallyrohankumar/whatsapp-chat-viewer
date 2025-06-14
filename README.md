@@ -2,7 +2,7 @@
 
 A beautiful, feature-rich React.js application that transforms your WhatsApp chat exports into an elegant, interactive interface that mimics the original WhatsApp experience — with search, highlights, smooth navigation, and full privacy.
 
-🔗 **Live Website**: [https://dyavanpallyrohankumar.github.io/whatsapp-chat-viewer](https://dyavanpallyrohankumar.github.io/whatsapp-chat-viewer)
+🔗 **Live Website**: [https://readwhatsapp.vercel.app/](https://readwhatsapp.vercel.app/)
 
 ---
 

@@ -3,6 +3,7 @@ import FileUploader from './components/FileUploader';
 import ChatViewer from './components/ChatViewer';
 import Footer from './components/Footer';
 import './App.css';
+import { Analytics } from "@vercel/analytics/next"
 
 const App = () => {
   const [messages, setMessages] = useState([]);
@@ -28,6 +29,7 @@ const App = () => {
         )}
       </div>
       <Footer />
+      <Analytics />
     </div>
   );
 };
