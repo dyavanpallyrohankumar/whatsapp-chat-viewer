@@ -22,6 +22,7 @@ const App = () => {
   return (
     <div className="flex flex-col max-h-screen">
       <div className="flex-grow">
+         <Analytics />
         {!showChat ? (
           <FileUploader onFileUpload={handleFileUpload} />
         ) : (
@@ -29,7 +30,7 @@ const App = () => {
         )}
       </div>
       <Footer />
-      <Analytics />
+     
     </div>
   );
 };
